@@ -1,16 +1,37 @@
-# README
+# ayu-california-dark
+Bring native macOS UI to Visual Studio Code
 
-## This is the README for your extension "ayu-california-dark"
+![ayu-california-dark demo](./.doc/demo.png)
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+### Dependencies
+You'll need to have the following extensions installed prior to installing this theme:
+- Vibrancy
+- Customize UI
 
-- Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-- Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-- Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+### Recommended Settings
 
-### For more information
+##### Vibrancy
+![Vibrancy settings](./.doc/vibrancy_settings.png)
 
-- [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-- [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+##### Customize UI
+Customize UI: Activity Bar
+`bottom`
 
-**Enjoy!**
+Customize UI: Title Bar
+`inline`
+
+### Installation
+Clone the repo and copy the contents to the User VS Code extensions directory in your home folder:
+```
+git clone https://github.com/danallenio/vscode-ayu-california-dark.git
+cp -r ayu-california-dark ~/.vscode/extensions
+```
+
+Reload VS Code
+
+Open the Preferences: Color Theme selection menu in the Command Palette (`Cmd` + `K`  `T`), and select Ayu California within the dark theme options.
+
+
+### Light Theme
+For the light theme, visit https://github.com/danallenio/vscode-ayu-california-light
+
