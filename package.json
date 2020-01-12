@@ -1,0 +1,21 @@
+{
+  "name": "ayu-california-dark",
+  "displayName": "ayu-california-dark",
+  "description": "Ayu theme matched to the California cities versions of MacOS",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.39.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Ayu California Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ayu California-Dark-color-theme.json"
+      }
+    ]
+  }
+}
